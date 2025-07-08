@@ -25,7 +25,7 @@ $graph:
   id: main
   requirements:
     DockerRequirement:
-      dockerPull: null
+      dockerPull: ghcr.io/maap-project/sardem-sarsen:mlucas_nasa-ogc
     NetworkAccess:
       networkAccess: true
     ResourceRequirement:
