@@ -8,9 +8,9 @@ code_repository: https://github.com/grallewellyn/ogc_process_test.git
 citation: https://github.com/grallewellyn/ogc_process_test.git
 author: grallewellyn
 contributor: grallewellyn
-license: https://github.com/MAAP-Project/sardem-sarsen/blob/main/LICENSE
+license: https://github.com/grallewellyn/ogc-app-pack-generator/blob/main/LICENSE
 release_notes: None
-run_command: /app/sardem-sarsen/sardem-sarsen.sh
+run_command: /ogc_process_test/print_script.sh
 ram_min: 5 # mebibytes
 cores_min: 1
 outdir_max: 20 # mebibytes
