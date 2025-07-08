@@ -1,0 +1,26 @@
+# Input params for OGC application package generator
+# The information provided in this file supports CWL and OGC best practices
+algorithm_description: This application is a simple print statement for testing for integration with MDPS 
+algorithm_name: sample_print
+algorithm_version: 1
+keywords: test
+code_repository: https://github.com/grallewellyn/ogc_process_test.git
+citation: https://github.com/grallewellyn/ogc_process_test.git
+author: grallewellyn
+contributor: grallewellyn
+license: https://github.com/MAAP-Project/sardem-sarsen/blob/main/LICENSE
+release_notes: None
+run_command: /app/sardem-sarsen/sardem-sarsen.sh
+ram_min: 5 # mebibytes
+cores_min: 1
+outdir_max: 20 # mebibytes
+
+inputs:
+  - name: to_print
+    doc: statement to pring
+    label: To print
+    type: string
+
+outputs:
+  - name: out
+    type: Directory
